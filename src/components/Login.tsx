@@ -131,7 +131,7 @@ export default function Login() {
           {/* Integración de reCAPTCHA */}
           <ReCAPTCHA
             ref={recaptchaRef}
-            sitekey="6LeAWOcqAAAAAOO0wMKcbpHGAXEHRySUVpj23XgU" // Reemplaza con tu site key
+            sitekey="6Ld_kOcqAAAAAMWYOXUHjWzUPpPWUiTGLQUFkG4X" // Reemplaza con tu site key
             onChange={handleRecaptchaChange}
           />
 

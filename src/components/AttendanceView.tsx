@@ -17,7 +17,7 @@ const AttendanceView = () => {
   useEffect(() => {
     const fetchStudents = async () => {
       try {
-        const response = await fetch(`https://backend-maestros.onrender.com/grupos/${id}/alumnos`);
+        const response = await fetch(`http://localhost:5000/grupos/${id}/alumnos`);
         const data = await response.json();
         setStudents(data.alumnos);
       } catch (error) {

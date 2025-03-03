@@ -14,7 +14,7 @@ const GroupForm = () => {
         }
 
         try {
-            const response = await fetch('https://backend-maestros.onrender.com/crear-grupo', {
+            const response = await fetch('http://localhost:5000/crear-grupo', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ nombre: groupName }),

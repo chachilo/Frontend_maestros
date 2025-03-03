@@ -17,7 +17,7 @@ const StudentForm = () => {
   useEffect(() => {
     const fetchGrupos = async () => {
       try {
-        const response = await fetch('https://backend-maestros.onrender.com/grupos');
+        const response = await fetch('http://localhost:5000/grupos/grupos');
         const data = await response.json();
         setGrupos(data.grupos);
       } catch (error) {
